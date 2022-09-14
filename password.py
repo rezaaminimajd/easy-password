@@ -8,5 +8,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
     name = args.key
     passwords = json.load(open('password.json'))
-    print(passwords[name])
+    print(passwords[name], end='')
 
