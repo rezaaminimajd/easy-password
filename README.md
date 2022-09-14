@@ -25,7 +25,7 @@ mv project-directory/* /bin/password/
 ```
 next add these aliases:
 ```bash
-alias psw="python3 password.py --key"
+alias psw="python3 /bin/password/password.py --key"
 alias copy="xclip -sel clip"
 ```
 
